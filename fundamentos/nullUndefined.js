@@ -3,7 +3,7 @@ console.log(`
 Atribuições
 ===========`)
 const a = {name: 'Teste'}
-
+console.log(a)
 //ATRIBUIÇÃO POR REFRÊNCIA
 const b = a // Igualamos o endereço da constante b para a contante a, ou seja, ambas partilham o mesmo endereço
 
