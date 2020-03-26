@@ -9,14 +9,3 @@ um exercício simples para mostrar dinheiro sempre da forma correta.
 Desenvolva uma função JavaScript para
 que ela receba um valor como 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto).
 */
-
-
-function fixBugCasa(){
-    const soma = (a, b) => (a + b)
-
-    let resultado = soma(0.1, 0.2)
-
-    if(resultado === 0.30000000000000004){
-        console.log("R$0,30")
-    }
-}
